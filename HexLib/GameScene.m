@@ -43,10 +43,10 @@
 
     // These four lines show how to get different shapes of hex maps.
     //
-//    self.hexMap = [HexMap hexagonWithMapRadius:MAP_RADIUS andLayout:self.layout];
+    self.hexMap = [HexMap hexagonWithMapRadius:MAP_RADIUS andLayout:self.layout];
 //    self.hexMap = [HexMap rectangleWithDimensions:CGSizeMake(MAP_RADIUS, MAP_RADIUS) andLayout:self.layout];
 //    self.hexMap = [HexMap triangleWithMapSize:MAP_RADIUS andLayout:self.layout];
-    self.hexMap = [HexMap parallelogramWithDimensions:CGSizeMake(MAP_RADIUS, MAP_RADIUS)];
+//    self.hexMap = [HexMap parallelogramWithDimensions:CGSizeMake(MAP_RADIUS, MAP_RADIUS)];
 
     // Now add a visual node to represent each hex in the map.
     //
