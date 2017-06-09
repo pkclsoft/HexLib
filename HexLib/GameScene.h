@@ -7,7 +7,14 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "Hex.h"
+#import "Layout.h"
+#import "HexMap.h"
 
 @interface GameScene : SKScene
+
+@property (nonatomic, retain) SKSpriteNode *mapNode;
+@property (nonatomic, retain) Layout *layout;
+@property (nonatomic, retain) HexMap *hexMap;
 
 @end
